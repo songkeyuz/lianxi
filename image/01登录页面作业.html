@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        input {
+            background: none;
+            outline: none;
+            border: 0px;
+        }
+
+        body {
+            background: #f5f5f5;
+        }
+
+        .box {
+            width: 320px;
+            margin: 100px auto;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .box .tishi {
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        input {
+            background: white;
+            border: 1px solid #999999;
+            font-weight: 400;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .box .d {
+            padding-left: 10px;
+            height: 60px;
+            width: 300px;
+            margin-top: 30px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .box .d:focus {
+            border-color: #66afe9;
+            outline: 0;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 12px rgba(35, 121, 192, 0.9);
+        }
+        .box .p:focus {
+            border-color: #66afe9;
+            outline: 0;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 12px rgba(35, 121, 192, 0.9);
+        }
+
+        .box .p {
+            padding-left: 10px;
+            height: 60px;
+            width: 300px;
+            border-radius: 0 0 5px 5px;
+            margin-bottom: 20px;
+        }
+
+        #service {
+            height: 15px;
+            width: 15px;
+        }
+
+        .box .tijiao {
+            height: 60px;
+            width: 300px;
+            font-size: 22px;
+            background: #007bff;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            color: #f5f5f5;
+            font-weight: 600;
+        }
+
+        .box .bb {
+            color: #6C757D;
+            font-size: 18px;
+        }
+
+        .box span {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <p class="tishi">Please sign in</p>
+
+
+        <input type="text" class="d" placeholder="    Email address">
+        <input type="password" class="p" placeholder="    Password">
+
+        <input type="checkbox" id="service">
+        <label for="service"><span>Remember me</span></label>
+        <input type="submit" class="tijiao" value="Sign in">
+
+        <p class="bb">&copy;2017-2018</p>
+
+    </div>
+
+
+
+</body>
+
+</html>
