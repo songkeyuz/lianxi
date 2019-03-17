@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        input {
+            background: none;
+            outline: none;
+            border: 0px;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        /* nav */
+        .nav {
+            width: 100%;
+            height: 59px;
+            border-top: 3px solid #000;
+            background-color: #343a40;
+            margin-top: 0px;
+            overflow: hidden;
+        }
+
+        .nav .news ul li {
+            float: left;
+            margin: 9px 17px 9px 0px;
+            font-size: 16px;
+            color: #ffffff;
+            line-height: 38px;
+        }
+
+        .nav .news ul li.Fn {
+            margin-left: 1%;
+            margin-right: 24px;
+            font-size: 20px;
+        }
+
+        .nav .news ul li.L {
+            color: #92948d;
+        }
+
+        .nav .news ul li.D {
+            color: #5a626c;
+        }
+
+        .nav .sabout {
+            float: right;
+            margin-right: 1%;
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+
+        .nav .sabout .chaxun {
+            height: 38px;
+            width: 73px;
+            border: 1px solid #28a644;
+            color: #28a644;
+            background-color: #343a40;
+            border-radius: 5px 5px;
+        }
+
+        .nav .sabout .S {
+            background-color: #ffffff;
+            height: 38px;
+            width: 200px;
+            border: 1px solid #cfd5db;
+            border-radius: 5px 5px;
+        }
+
+        /* main */
+        .main {
+            width: 1062px;
+            margin: 65px auto 0px;
+            overflow: hidden;
+        }
+
+        .main h4 {
+            font-size: 28px;
+        }
+
+        .main p {
+            display: block;
+            margin-top: 15px;
+            line-height: 25px;
+            color: #202428;
+        }
+
+        .main p .pi {
+            color: #ea3e8f;
+        }
+
+        .main p .bl {
+            color: #167dff;
+        }
+
+        .main .wenz {
+            color: #4f5052;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="news">
+            <ul>
+                <li class="Fn">Fixed navbar</li>
+                <li class="H">Home</li>
+                <li class="L">Link</li>
+                <li class="D">Disabled</li>
+            </ul>
+        </div>
+        <div class="sabout">
+            <input type="text" class="S" placeholder="  Search">
+            <input type="submit" class="chaxun" value="Search">
+        </div>
+    </div>
+    <div class="main">
+        <h4>Sticky footer with fixed navbar</h4>
+        <p class="wenz">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom
+            HTML and CSS. A
+            fixed navbar has been added with <span class="pi">padding-top: 60px;</span>on the <span class="pi">body >
+                .container</span>. </p>
+        <p>Back to <span class="bl">the default sticky footer</span> minus the navbar</p>
+    </div>
+
+</body>
+
+</html>
