@@ -17,13 +17,12 @@ function next() {
     hideTable();
     currentRow = pageSize * page;
     maxRow = currentRow + pageSize;
-    if (maxRow > numberRowsInTable) {
+    if (maxRow > numberRowsInTable)
         maxRow = numberRowsInTable;
-        for (var i = currentRow; i < maxRow; i++) {
-            pageTable.rows[i].style.display = '';
-        }
-        page++;
+    for (var i = currentRow; i < maxRow; i++) {
+        pageTable.rows[i].style.display = '';
     }
+    page++;
     if (maxRow == numberRowsInTable) {
         nextText();
         lastText();

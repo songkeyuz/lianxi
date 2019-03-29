@@ -47,11 +47,11 @@ window.onload = function() {
             "<td>" + userName + "</td>" +
             "<td>" + email + "</td>" +
             "<td>" + address + "</td>" +
-            "<td><a href='javascript:;'>Delete</a></td>";
+            "<td><a class='del'>Delete</a></td>";
 
         //为a标签绑定删除函数
-        var a = tr.getElementsByTagName("a")[0];
-        a.onclick = delA;
+        var adel = tr.getElementsByClassName("del")[0];
+        adel.onclick = delA;
 
         //获取table
         var userTable = document.getElementById("userTable");
@@ -62,8 +62,8 @@ window.onload = function() {
 
     };
 
-    //获取所有额超链接
-    var allA = document.getElementsByTagName("a");
+    //获取所有的超链接
+    var allA = document.getElementsByClassName("del");
 
     //为每个超链接都绑定一个单击响应函数
     for (var i = 0; i < allA.length; i++) {
