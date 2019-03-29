@@ -203,7 +203,7 @@ body {
     border-collapse: collapse;
     border-spacing: 1px;
     background-color: #f9f9fb;
-    margin: 80px auto 500px auto;
+    margin: 80px auto 50px auto;
     text-align: center;
     color: #202428;
     line-height: 40px;
@@ -213,4 +213,23 @@ th,
 td {
     border: 1px solid #000;
     width: 150px;
+}
+
+#page {
+    width: 900px;
+    height: 100px;
+    margin: 0px auto 500px;
+    text-align: center;
+}
+
+#page span {
+    margin-right: 20px;
+}
+
+#spanPageNum {
+    margin: 0px;
+}
+
+#spanTotalPage {
+    margin: 0px;
 }
