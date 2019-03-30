@@ -207,12 +207,12 @@ body {
     text-align: center;
     color: #202428;
     line-height: 40px;
+    width: 99%;
 }
 
 th,
 td {
-    border: 1px solid #000;
-    width: 150px;
+    border: 1px solid #6c747c;
 }
 
 #page {
@@ -226,10 +226,10 @@ td {
     margin-right: 20px;
 }
 
-#spanPageNum {
+#page #spanPageNum {
     margin: 0px;
 }
 
-#spanTotalPage {
+#page #spanTotalPage {
     margin: 0px;
 }
